@@ -2,5 +2,48 @@ body {
     background: rgb(189, 145, 79);
 }
 
+.titleWords{
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
 
 
+.mainTitle {
+    background-color: gray;
+    display: inline;
+    color: black;
+    text-align: center;
+    border: 2px solid rgb(190, 53, 53);
+}
+
+.description {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.main-content {
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding:30px;
+    border-radius:1em;
+    justify-content: flex-start;
+    
+}
+
+.sidebar {
+    flex: 1;
+    background-color: tan;
+    margin: 10px;
+    padding:30px;
+    border-radius:1em;
+    justify-content: flex-start;
+}
